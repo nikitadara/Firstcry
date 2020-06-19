@@ -1,0 +1,28 @@
+<html>
+<body background="photos\bckgrnd tx\hjkhgjkd.jpg">
+<br><br><br><br><br><center><form name="mform" action="" method="get">
+User ID:&nbsp;&nbsp;<input type="type" name="t1" size="60" title="plz enter user ID">
+<br>
+Password: <input type="password" size=40 maxlength=8 title="plz enter 8 characters" name="t2"><br>
+</select><br>
+<input type="button" value="login" onclick="login()">
+<input type="reset" value="reset">
+</form></center>
+<script type="text/javascript">
+function login()
+{
+var u=document.forms["mform"]["t1"].value;
+var p=document.forms["mform"]["t2"].value;
+if(u=="babycry" && p=="neilgiri")
+{
+alert("Login Succesfully");
+window.location="index.html";
+}
+else
+{
+alert("Login failed");
+}
+}
+</script>
+</body>
+</html>
